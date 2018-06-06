@@ -1,0 +1,21 @@
+target '区块链_swift' do
+ 
+use_frameworks!
+
+
+pod 'MJExtension'
+pod 'ObjectMapper'
+
+  # Pods for 区块链_swift
+
+  target '区块链_swiftTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target '区块链_swiftUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
